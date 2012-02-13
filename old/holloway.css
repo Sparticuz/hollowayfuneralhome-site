@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #71b1d9;
+	background-image: none;
+	background-attachment:fixed;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana;
+}
+img{border:1px solid black;}
+.merch {font-size: 12px}
+#image{position:fixed; top:0; left:0; width:100%; height:100%;}
+#wrapper{width:632px;margin-left:auto;margin-right:auto; position:relative; z-index:1;}
+#header{
+	background-image: url(images/header.png);
+	height:43px;
+	width:627px;
+	margin-top: 26px;
+}
+#background{
+	background-image: url(images/content.png);
+	width:494px;
+	height:545px;
+	float:right;
+}
+#content{
+	background-color: #ffffff;
+	width: 446px;
+	min-height: 505px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 10px;
+	padding-bottom: 26px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align:left;
+	/*border: 1px solid green;*/
+}
+#bottom{background:url(images/bottom.png) no-repeat bottom;}
+
+h1{
+	font-size: x-large;
+	color: #71b1d9;
+}
+h2{
+	font-size: medium;
+	color: #71b1d9;
+}
+p{
+	text-align: justify;
+	font-size: 12px;
+	}
+
+/* Nav bar */
+#nav{width:138px;float:left;}
+#nav ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	clear:none;
+}
+#nav ul li a{display: block;width:142px;height:38px;text-decoration:none;}
+
+#nav ul li.home{background-image:url(images/home-up.png);width:142px;height:38px;}
+#nav ul li.home:hover{background-image:url(images/home-down.png);}
+
+#nav ul li.services{background-image:url(images/services-up.png);width:142px;height:38px;}
+#nav ul li.services:hover{background-image:url(images/services-down.png);}
+
+#nav ul li.admin{background-image:url(images/admin-up.png);width:142px;height:36px;}
+#nav ul li.admin:hover{background-image:url(images/admin-down.png);}
+#nav ul li.admin a{height: 38px;}
+
+#nav ul li.merch{background-image:url(images/merch-up.png);width:142px;height:37px;}
+#nav ul li.merch:hover{background-image:url(images/merch-down.png);}
+
+#nav ul li.contact{background-image:url(images/contact-up.png);width:142px;height:47px;}
+#nav ul li.contact:hover{background-image:url(images/contact-down.png);}
+#nav ul li.contact a{height:47px;}
+
+
+
+
+
+
+
+/*FORM HANDLING */
+form{
+	width: 450px;
+}
+
+
+form label{
+	float: left;
+	width: 100px; /*width of labels*/
+	text-align: right;
+	padding-right: 10px;
+}
+
+form input {
+	width:180px;
+}
+
+form select{
+	width:185px;
+}
+
+p.error {
+  background-color: #ff0000;
+  background-image: url("images/icon_error.gif");
+  background-repeat: no-repeat;
+  background-position: 3px 3px;
+  width:400px;
+  color: #ffffff;
+  text-align:center;
+  padding: 3px 3px 5px 27px;
+  border: 1px solid #000000;
+  margin: 5px 5px;
+  display:none;
+  
+}
+
+span.error{
+	font-size: x-small;
+}
+
+label.required{
+	font-weight:900;
+}
