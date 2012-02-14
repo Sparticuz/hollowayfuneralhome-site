@@ -45,9 +45,13 @@
 
 	<div class="container">
 
-		<header>
-			<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
-			<h2 class="description"><?php bloginfo('description'); ?></h2>
+		<header class="row">
+			<div class="twelve columns">
+				<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
+				<h2 class="description"><?php bloginfo('description'); ?></h2>
+			</div>
 		</header>
 
-		<?php include (TEMPLATEPATH . '/inc/menu.php' ); ?>
+		<nav class="row">
+			<?php include (TEMPLATEPATH . '/inc/menu.php' ); ?>
+		</nav>
