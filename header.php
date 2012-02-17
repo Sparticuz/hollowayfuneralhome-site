@@ -46,12 +46,9 @@
 	<div class="container">
 
 		<header class="row">
-			<div class="twelve columns">
-				<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
-				<h2 class="description"><?php bloginfo('description'); ?></h2>
-			</div>
+			<span class="ten columns push-two" id="heading"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></span>
+			<div class="two columns pull-ten" id="logo"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" /></div>
 		</header>
 
-		<nav class="row">
+		<div class="row"> <!-- Start the row for the nav/content -->
 			<?php include (TEMPLATEPATH . '/inc/menu.php' ); ?>
-		</nav>
