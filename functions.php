@@ -22,8 +22,8 @@
 	
 	// Load jQuery from Google
 	if ( !is_admin() ) {
-	   wp_deregister_script('jquery');
-	   wp_register_script('jquery', ("http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"), false);
+//	   wp_deregister_script('jquery');
+//	   wp_register_script('jquery', ("http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"), false);
 	   wp_enqueue_script('jquery');
 	}
 	
