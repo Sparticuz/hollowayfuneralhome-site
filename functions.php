@@ -40,5 +40,11 @@
     }
     add_action('init', 'removeHeadLinks');
     remove_action('wp_head', 'wp_generator');
+	
+	//Add the 'nice' class to the contact form <form> tag
+	function your_custom_form_class_attr( $class ) {
+		return $class .= ' nice';
+	}
+	add_filter( 'wpcf7_form_class_attr', 'your_custom_form_class_attr' );
     
 ?>

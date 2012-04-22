@@ -65,6 +65,7 @@ header{font-family: 'Montserrat', sans-serif;}
 .post{
 	padding: 10px 20px;
 }
+.size-thumbnail{border: 1px #222222 solid;}
 h1,h2,h3,h4,h5,h6{color:#71B1D9;font-family: 'Montserrat', sans-serif;}
 
 .alignleft{float:left;margin-right:10px;}
