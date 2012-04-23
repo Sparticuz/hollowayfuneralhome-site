@@ -68,8 +68,8 @@ header{font-family: 'Montserrat', sans-serif;}
 .size-thumbnail{border: 1px #222222 solid;}
 h1,h2,h3,h4,h5,h6{color:#71B1D9;font-family: 'Montserrat', sans-serif;}
 
-.alignleft{float:left;margin-right:10px;}
-.alignright{float:right;margin-left:10px}
+.alignleft{float:left;margin-right:10px;margin-bottom:10px;}
+.alignright{float:right;margin-left:10px;margin-bottom:10px;}
 
 /* Override Foundation */
 li{margin-bottom:0;}

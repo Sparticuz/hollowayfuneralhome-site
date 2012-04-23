@@ -15,12 +15,7 @@
 				html = "<div id='reveal-"+index+"' class='reveal-modal'>";
 				html +="<img src='"+parent.attr('href')+"' />"
 				html += "</div>";
-				
-				console.log(parent);
-				
 				parent.attr("data-reveal-id","reveal-"+index);
-				
-				console.log(html);
 				$("body").append(html);
 			});
 		});
