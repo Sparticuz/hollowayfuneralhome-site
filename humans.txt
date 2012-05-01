@@ -6,4 +6,4 @@
 /* SITE */
   Standards: HTML5, CSS3
   Components: jQuery, Reveal, Contact Form 7, Wordpress 3
-  Software: Coda, Textmate, Git, Notepad++, SVN, Netbeans, Filezilla
+  Software: Coda, Textmate, Git, Notepad++, SVN, Netbeans, Filezilla, Firefox + Firebug
